@@ -6,12 +6,13 @@ import { Loader } from './components/Loader'
 import background from './img2.jpg'
 
 const crypto = [
-  ['cake', 'pancakeswap-token', 87.327] 
-  ,['ada', 'cardano', 2136.529757] 
-  // ,['bnb', 'binancecoin', .0859]
-  ,['doge', 'dogecoin', 1150.775]
-  ,['safemoon', 'safemoon', 9821926] // 100,000 SafeMoon will be gifted to Eric - Time 2:09 PM - ~4000/day?
-  ,['safemars', 'safemars', 11854430]
+  ['ada', 'cardano', 2138.08] 
+  ,['bnb', 'binancecoin', 2]
+  ,['doge', 'dogecoin', 1688.775]
+  ,['vet', 'vechain', 4675]
+  ,['hbar', 'hedera-hashgraph', 2360]
+  ,['safemoon', 'safemoon', 9828319] // 100,000 SafeMoon will be gifted to Eric - Time 2:09 PM - ~4000/day?
+  ,['safemars', 'safemars', 11858230]
 ].sort();
 
 const Totals = props => {
